@@ -81,3 +81,13 @@ Test Case 1
 Test Case 2
 
 > ["Buzz", "Fizz", "22", "23", "Fizz", "Buzz", "26", "Fizz", "28", "29", "FizzBuzz", "31", "32", "Fizz", "34", "Buzz", "Fizz", "37", "38", "Fizz", "Buzz", "41", "Fizz", "43", "44", "FizzBuzz", "46", "47", "Fizz", "49", "Buzz"]
+
+# Wrap Up
+
+In conclusion, I used the two test cases to find and fix errors in the code and got the Fizz Buzz program working as per the specification provided. I made the following changes to the code:
+
+*	On line 14, changed “||” (an or) to “&&” (an and) in order to ensure that “FizzBuzz” only triggers when a number is a multiple of 3 and 5
+*	On line 7, changed it to return ‘numerator % Denominator == 0’ as a modulo of 0 signifies a number is a multiple so therefore would return true if it is and false if it is not
+*	On line 13, changed the for loop condition to be “i <= endNumber” so that it includes the upper limit called for
+* Corrected spelling of "Buzz" from "Buz"
+* Added quotes to each individual output
